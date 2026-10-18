@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Event Marketplace | Hire4Event</title>
+
+  <meta name="description" content="Explore event venues, photographers, decorators, caterers, DJs and other event service providers with Hire4Event.">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <a href="index.html" class="brand">
+        Hire<span class="red">4</span>Event
+      </a>
+
+      <button
+        class="menu-toggle"
+        id="menuToggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="primaryNav">
+        ☰
+      </button>
+
+      <nav class="primary-nav" id="primaryNav">
+        <a href="services.html">Services</a>
+        <a href="solutions.html">Solutions</a>
+        <a href="marketplace.html" class="active">Marketplace</a>
+        <a href="resources.html">Resources</a>
+        <a href="company.html">Company</a>
+        <a href="plan_ your_ event.html" class="nav-plan">
+          Plan Your Event
+        </a>
+      </nav>
+
+    </div>
+  </header>
+
+
+  <main>
+
+    <!-- HERO -->
+    <section class="marketplace-hero">
+      <div class="container marketplace-hero-grid">
+
+        <div class="marketplace-hero-content">
+          <span class="section-label">HIRE4EVENT MARKETPLACE</span>
+
+          <h1>
+            Find the Right
+            <span>Event Professionals.</span>
+          </h1>
+
+          <p>
+            Discover event venues, creative professionals and
+            service providers to help bring your celebration,
+            wedding or corporate event to life.
+          </p>
+
+          <div class="marketplace-actions">
+            <a href="#vendor-marketplace" class="btn btn-dark">
+              Explore Marketplace →
+            </a>
+
+            <a href="plan_ your_ event.html" class="btn btn-outline">
+              Plan Your Event
+            </a>
+          </div>
+
+          <div class="marketplace-highlights">
+            <span>✓ Multiple service categories</span>
+            <span>✓ Options for different occasions</span>
+          </div>
+        </div>
+
+        <div class="marketplace-hero-image">
+          <img
+            src="images.your choice.jpg"
+            alt="Elegant event venue prepared for a celebration">
+
+          <div class="marketplace-image-tag">
+            <strong>Your Event, Your Choice</strong>
+            <span>Discover services for your next event</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- SEARCH -->
+    <section class="marketplace-search-section" id="vendor-marketplace">
+      <div class="container">
+
+        <div class="marketplace-search-heading">
+          <span class="section-label">DISCOVER EVENT SERVICES</span>
+          <h2>Explore the Marketplace</h2>
+          <p>
+            Search by service name or select a category to find
+            suitable event service options.
+          </p>
+        </div>
+
+        <div class="marketplace-search-box">
+          <label for="marketplaceSearch">What are you looking for?</label>
+
+          <div class="search-input-wrap">
+            <span aria-hidden="true">⌕</span>
+
+            <input
+              type="search"
+              id="marketplaceSearch"
+              placeholder="Search venues, photographers, DJs..."
+              autocomplete="off">
+
+            <button type="button" id="clearSearch" class="clear-search">
+              Clear
+            </button>
+          </div>
+
+          <div class="marketplace-filters" aria-label="Filter service categories">
+            <button type="button" class="filter-tab is-active" data-category="all" aria-pressed="true">
+              All Services
+            </button>
+
+            <button type="button" class="filter-tab" data-category="venue" aria-pressed="false">
+              Venues
+            </button>
+
+            <button type="button" class="filter-tab" data-category="photography" aria-pressed="false">
+              Photography
+            </button>
+
+            <button type="button" class="filter-tab" data-category="decoration" aria-pressed="false">
+              Decoration
+            </button>
+
+            <button type="button" class="filter-tab" data-category="catering" aria-pressed="false">
+              Catering
+            </button>
+
+            <button type="button" class="filter-tab" data-category="entertainment" aria-pressed="false">
+              Entertainment
+            </button>
+
+            <button type="button" class="filter-tab" data-category="planning" aria-pressed="false">
+              Event Planning
+            </button>
+          </div>
+        </div>
+
+
+        <!-- MARKETPLACE CARDS -->
+        <div class="marketplace-results-heading">
+          <h3>Explore Event Services</h3>
+          <p id="resultsCount" aria-live="polite">Showing 9 services</p>
+        </div>
+
+        <div class="marketplace-grid" id="marketplaceGrid">
+
+          <!-- VENUE -->
+          <article class="marketplace-card"
+                   data-category="venue"
+                   data-search="event venue banquet hall wedding venue party location">
+            <a href="plan-your-event.html" class="marketplace-card-image">
+              <img
+                src="images.beautiful.event.jpg"
+                alt="Beautiful event and wedding venue"
+                loading="lazy">
+              <span class="marketplace-category">VENUES</span>
+            </a>
+
+            <div class="marketplace-card-content">
+              <h3>Event Venues</h3>
+              <p>
+                Explore venue options for weddings, parties,
+                conferences and special celebrations.
+              </p>
+              <a href="plan_ your_ event.html" class="marketplace-link">
+                Explore Venues →
+              </a>
+            </div>
+          </article>
+
+
+          <!-- PHOTOGRAPHY -->
+          <article class="marketplace-card"
+                   data-category="photography"
+                   data-search="photographer photography wedding videography event photo">
+            <a href="plan_ your_ event.html" class="marketplace-card-image">
+              <img
+                src="images.photo.jpg"
+                alt="Camera for professional event photography"
+                loading="lazy">
+              <span class="marketplace-category">PHOTOGRAPHY</span>
+            </a>
+
+            <div class="marketplace-card-content">
+              <h3>Photographers</h3>
+              <p>
+                Find photography and videography services for
+                weddings, events and important moments.
+              </p>
+              <a href="plan_ your_ event.html" class="marketplace-link">
+                Explore Photography →
+              </a>
+            </div>
+          </article>
+
+
+          <!-- DECORATION -->
+          <article class="marketplace-card"
+                   data-category="decoration"
+                   data-search="event decoration wedding decor flowers stage design">
+            <a href="plan_ your_ event.html" class="marketplace-card-image">
+              <img
+                src="images.decoration.jpg"
+                alt="Decorated venue for a special event"
+                loading="lazy">
+              <span class="marketplace-category">DECORATION</span>
+            </a>
+
+            <div class="marketplace-card-content">
+              <h3>Event Decorators</h3>
+              <p>
+                Discover creative decoration, floral arrangements,
+                stage designs and event styling.
+              </p>
+              <a href="plan_ your_ event.html" class="marketplace-link">
+                Explore Decoration →
+              </a>
+            </div>
+          </article>
+
+
+          <!-- CATERING -->
+          <article class="marketplace-card"
+                   data-category="catering"
+                   data-search="catering food buffet wedding menu event catering service">
+            <a href="plan_ your_ event.html" class="marketplace-card-image">
+              <img
+                src="images.event1.jpg"
+                alt="Catering and food arrangement for an event"
+                loading="lazy">
+              <span class="marketplace-category">CATERING</span>
+            </a>
+
+            <div class="marketplace-card-content">
+              <h3>Catering Services</h3>
+              <p>
+                Explore food and beverage arrangements for
+                weddings, business functions and parties.
+              </p>
+              <a href="plan_ your_ event.html" class="marketplace-link">
+                Explore Catering →
+              </a>
+            </div>
+          </article>
+
+
+          <!-- ENTERTAINMENT -->
+          <article class="marketplace-card"
+                   data-category="entertainment"
+                   data-search="DJ singer music artist band live entertainment performer">
+            <a href="plan_ your_ event.html" class="marketplace-card-image">
+              <img
+                src="images.live.jpg"
+                alt="Live music and entertainment at an event"
+                loading="lazy">
+              <span class="marketplace-category">ENTERTAINMENT</span>
+            </a>
+
+            <div class="marketplace-card-content">
+              <h3>DJs & Artists</h3>
+              <p>
+                Find DJs, live performers, musicians and
+                entertainment options for your guests.
+              </p>
+              <a href="plan_ your_ event.html" class="marketplace-link">
+                Explore Entertainment →
+              </a>
+            </div>
+          </article>
+
+
+          <!-- PLANNING -->
+          <article class="marketplace-card"
+                   data-category="planning"
+                   data-search="event planner wedding planner coordinator management organizer">
+            <a href="plan-your-event.html" class="marketplace-card-image">
+              <img
+                src="images.coordinator.jpg"
+                alt="Event planning and coordination"
+                loading="lazy">
+              <span class="marketplace-category">EVENT PLANNING</span>
+            </a>
+
+            <div class="marketplace-card-content">
+              <h3>Event Planners</h3>
+              <p>
+                Find planning and coordination options to help
+                organize your event from start to finish.
+              </p>
+              <a href="plan_ your_ event.html" class="marketplace-link">
+                Explore Planners →
+              </a>
+            </div>
+          </article>
+
+
+          <!-- SOUND AND LIGHT -->
+          <article class="marketplace-card"
+                   data-category="entertainment"
+                   data-search="sound system lighting LED screen stage audio equipment">
+            <a href="plan_ your_ event.html" class="marketplace-card-image">
+              <img
+                src="images.1.jpg"
+                alt="Professional sound and lighting at an event"
+                loading="lazy">
+              <span class="marketplace-category">SOUND & LIGHT</span>
+            </a>
+
+            <div class="marketplace-card-content">
+              <h3>Sound & Lighting</h3>
+              <p>
+                Explore audio equipment, stage lighting,
+                screens and technical event production.
+              </p>
+              <a href="plan-your-event.html" class="marketplace-link">
+                Explore Equipment →
+              </a>
+            </div>
+          </article>
+
+
+          <!-- FLOWERS -->
+          <article class="marketplace-card"
+                   data-category="decoration"
+                   data-search="flowers florist bouquets floral wedding arrangements">
+            <a href="plan-your-event.html" class="marketplace-card-image">
+              <img
+                src="images.flower.jpg"
+                alt="Fresh flowers for event decoration"
+                loading="lazy">
+              <span class="marketplace-category">FLORAL DESIGN</span>
+            </a>
+
+            <div class="marketplace-card-content">
+              <h3>Florists & Flowers</h3>
+              <p>
+                Discover floral styling, bouquets and flower
+                arrangements for your event.
+              </p>
+              <a href="plan_ your_ event.html" class="marketplace-link">
+                Explore Florists →
+              </a>
+            </div>
+          </article>
+
+
+          <!-- CORPORATE SERVICES -->
+          <article class="marketplace-card"
+                   data-category="planning"
+                   data-search="corporate conference exhibition brand launch business event">
+            <a href="plan_ your_ event.html" class="marketplace-card-image">
+              <img
+                src="images.business.jpg"
+                alt="Corporate conference and business event"
+                loading="lazy">
+              <span class="marketplace-category">CORPORATE</span>
+            </a>
+
+            <div class="marketplace-card-content">
+              <h3>Corporate Event Services</h3>
+              <p>
+                Explore services for conferences, exhibitions,
+                product launches and business gatherings.
+              </p>
+              <a href="plan_ your_ event.html" class="marketplace-link">
+                Explore Corporate Services →
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="no-results" id="noResults" hidden>
+          <h3>No matching services found</h3>
+          <p>Try another search term or select a different category.</p>
+          <button type="button" id="resetFilters" class="btn btn-dark">
+            Show All Services
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- VENDOR CTA -->
+    <section class="vendor-cta">
+      <div class="container vendor-cta-inner">
+
+        <div>
+          <span class="section-label">FOR EVENT PROFESSIONALS</span>
+          <h2>Offer Event Services?</h2>
+          <p>
+            Interested in showcasing your services to people
+            planning their next event? Contact our team to discuss
+            vendor listing opportunities.
+          </p>
+        </div>
+
+        <a href="contact.html" class="btn btn-light">
+          Contact Our Team →
+        </a>
+
+      </div>
+    </section>
+
+
+    <!-- PLAN EVENT CTA -->
+    <section class="marketplace-bottom-cta">
+      <div class="container">
+
+        <span class="section-label">LET'S GET STARTED</span>
+
+        <h2>Your Next Event Starts with the Right Choices.</h2>
+
+        <p>
+          Explore event services and start planning a celebration
+          that suits your ideas and requirements.
+        </p>
+
+        <a href="plan_ your_ event.html" class="btn btn-dark">
+          Plan Your Event →
+        </a>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-main">
+
+      <div class="footer-about">
+        <a href="index.html" class="brand footer-brand">
+          Hire<span class="red">4</span>Event
+        </a>
+
+        <p>
+          Explore event services and discover planning options
+          for weddings, corporate functions and special occasions.
+        </p>
+      </div>
+
+      <div class="footer-column">
+        <h3>Explore</h3>
+        <a href="services.html">Services</a>
+        <a href="solutions.html">Solutions</a>
+        <a href="marketplace.html">Marketplace</a>
+        <a href="resources.html">Resources</a>
+      </div>
+
+      <div class="footer-column">
+        <h3>Company</h3>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="plan_ your_ event.html">Plan Your Event</a>
+      </div>
+
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span id="currentYear"></span> Hire4Event. All rights reserved.</p>
+      <a href="index.html">Home</a>
+    </div>
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>

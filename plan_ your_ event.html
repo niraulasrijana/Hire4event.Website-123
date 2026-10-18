@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Plan Your Event | Hire4Event</title>
+
+    <meta name="description" content="Plan corporate events, weddings, conferences, exhibitions and private celebrations with Hire4Event.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="container nav-container">
+
+            <a href="index.html" class="logo">
+                Hire4<span>Event</span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-controls="primaryNav"
+                aria-expanded="false">
+                ☰
+            </button>
+
+            <nav class="nav-links" id="primaryNav">
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="solutions.html">Solutions</a>
+                <a href="marketplace.html">Marketplace</a>
+                <a href="resources.html">Resources</a>
+                <a href="company.html">Company</a>
+                <a href="contact.html">Contact</a>
+                <a href="plan_ your_ event.html" class="nav-cta active">
+                    Plan Your Event
+                </a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="event-hero">
+            <div class="container event-hero-content">
+
+                <p class="eyebrow">LET'S CREATE SOMETHING AMAZING</p>
+
+                <h1>Let's Plan Your <span>Event.</span></h1>
+
+                <p>
+                    Every memorable event starts with a great plan.
+                    Tell us about your vision, your requirements and
+                    your goals to prepare your event brief.
+                </p>
+
+                <a href="#event-planner" class="primary-button">
+                    Start Planning →
+                </a>
+
+            </div>
+        </section>
+
+        <!-- PLANNER SECTION -->
+        <section class="event-planner section-padding" id="event-planner">
+
+            <div class="container planner-layout">
+
+                <!-- LEFT CONTENT -->
+                <div class="planner-info">
+
+                    <p class="eyebrow">YOUR EVENT, YOUR WAY</p>
+
+                    <h2>Bring Your Event Vision to Life</h2>
+
+                    <p>
+                        From corporate conferences and exhibitions to
+                        weddings and private celebrations, start with
+                        the details that matter most to you.
+                    </p>
+
+                    <div class="planner-benefit">
+                        <span class="benefit-number">01</span>
+                        <div>
+                            <h3>Share Your Vision</h3>
+                            <p>
+                                Tell us what kind of event you are planning.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="planner-benefit">
+                        <span class="benefit-number">02</span>
+                        <div>
+                            <h3>Set Your Requirements</h3>
+                            <p>
+                                Add your event date, city, guest count
+                                and estimated budget.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="planner-benefit">
+                        <span class="benefit-number">03</span>
+                        <div>
+                            <h3>Prepare Your Event Brief</h3>
+                            <p>
+                                Organize your requirements into a brief
+                                that you can share with your team.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="planner-note">
+                        <h3>Need Assistance?</h3>
+                        <p>
+                            Have questions about your event requirements?
+                            Get in touch with our team.
+                        </p>
+                        <a href="contact.html">Contact Us →</a>
+                    </div>
+
+                </div>
+
+                <!-- EVENT FORM -->
+                <div class="planner-form-card">
+
+                    <div class="form-heading">
+                        <p class="eyebrow">EVENT BRIEF</p>
+                        <h2>Tell Us About Your Event</h2>
+                        <p>Fields marked with * are required.</p>
+                    </div>
+
+                    <form id="eventPlannerForm">
+
+                        <div class="form-group">
+                            <label for="eventType">Event Type *</label>
+
+                            <select id="eventType" name="eventType" required>
+                                <option value="">Select event type</option>
+                                <option value="Corporate Event">Corporate Event</option>
+                                <option value="Conference">Conference</option>
+                                <option value="Exhibition">Exhibition</option>
+                                <option value="Wedding">Wedding</option>
+                                <option value="Birthday Party">Birthday Party</option>
+                                <option value="Concert">Concert</option>
+                                <option value="Product Launch">Product Launch</option>
+                                <option value="College Event">College Event</option>
+                                <option value="Private Party">Private Party</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-row">
+
+                            <div class="form-group">
+                                <label for="eventName">Event Name</label>
+                                <input
+                                    type="text"
+                                    id="eventName"
+                                    name="eventName"
+                                    placeholder="Enter event name">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="eventDate">Event Date *</label>
+                                <input
+                                    type="date"
+                                    id="eventDate"
+                                    name="eventDate"
+                                    required>
+                            </div>
+
+                        </div>
+
+                        <div class="form-row">
+
+                            <div class="form-group">
+                                <label for="eventCity">Event City *</label>
+                                <input
+                                    type="text"
+                                    id="eventCity"
+                                    name="eventCity"
+                                    placeholder="e.g. Bangalore"
+                                    required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="guestCount">Expected Guests *</label>
+
+                                <select id="guestCount" name="guestCount" required>
+                                    <option value="">Select guest count</option>
+                                    <option value="Under 50">Under 50</option>
+                                    <option value="50–100">50–100</option>
+                                    <option value="101–300">101–300</option>
+                                    <option value="301–500">301–500</option>
+                                    <option value="501–1000">501–1000</option>
+                                    <option value="1000+">1000+</option>
+                                </select>
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+                            <label for="eventBudget">Estimated Budget *</label>
+
+                            <select id="eventBudget" name="eventBudget" required>
+                                <option value="">Select your budget</option>
+                                <option value="Under ₹50,000">Under ₹50,000</option>
+                                <option value="₹50,000–₹1 lakh">₹50,000–₹1 lakh</option>
+                                <option value="₹1–₹5 lakh">₹1–₹5 lakh</option>
+                                <option value="₹5–₹10 lakh">₹5–₹10 lakh</option>
+                                <option value="₹10–₹25 lakh">₹10–₹25 lakh</option>
+                                <option value="₹25 lakh+">₹25 lakh+</option>
+                                <option value="Not decided">Not decided</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="eventVenue">Venue Preference</label>
+
+                            <select id="eventVenue" name="eventVenue">
+                                <option value="">Select venue preference</option>
+                                <option value="Hotel or Banquet">Hotel or Banquet</option>
+                                <option value="Convention Centre">Convention Centre</option>
+                                <option value="Outdoor Venue">Outdoor Venue</option>
+                                <option value="Office or Campus">Office or Campus</option>
+                                <option value="Need Venue Suggestions">Need Venue Suggestions</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="eventServices">Main Service Required</label>
+
+                            <select id="eventServices" name="eventServices">
+                                <option value="">Select a service</option>
+                                <option value="Complete Event Management">Complete Event Management</option>
+                                <option value="Venue and Catering">Venue and Catering</option>
+                                <option value="Stage, Sound and Lighting">Stage, Sound and Lighting</option>
+                                <option value="Photography and Videography">Photography and Videography</option>
+                                <option value="Artists and Entertainment">Artists and Entertainment</option>
+                                <option value="Decor and Production">Decor and Production</option>
+                                <option value="Multiple Services">Multiple Services</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="eventDetails">Additional Requirements</label>
+
+                            <textarea
+                                id="eventDetails"
+                                name="eventDetails"
+                                rows="5"
+                                placeholder="Describe your event theme, ideas and special requirements..."></textarea>
+                        </div>
+
+                        <div class="form-divider"></div>
+
+                        <div class="form-heading">
+                            <h2>Your Contact Details</h2>
+                            <p>Enter your details to prepare your event enquiry.</p>
+                        </div>
+
+                        <div class="form-row">
+
+                            <div class="form-group">
+                                <label for="customerName">Full Name *</label>
+                                <input
+                                    type="text"
+                                    id="customerName"
+                                    name="customerName"
+                                    placeholder="Your full name"
+                                    autocomplete="name"
+                                    required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="customerPhone">Phone Number *</label>
+                                <input
+                                    type="tel"
+                                    id="customerPhone"
+                                    name="customerPhone"
+                                    placeholder="Your phone number"
+                                    autocomplete="tel"
+                                    required>
+                            </div>
+
+                        </div>
+
+                        <div class="form-group">
+                            <label for="customerEmail">Email Address *</label>
+                            <input
+                                type="email"
+                                id="customerEmail"
+                                name="customerEmail"
+                                placeholder="you@example.com"
+                                autocomplete="email"
+                                required>
+                        </div>
+
+                        <div class="form-group consent-group">
+                            <input
+                                type="checkbox"
+                                id="eventConsent"
+                                name="eventConsent"
+                                required>
+
+                            <label for="eventConsent">
+                                I agree to use these details for preparing
+                                my event enquiry. *
+                            </label>
+                        </div>
+
+                        <button
+                            type="submit"
+                            class="primary-button submit-button">
+                            Prepare My Event Brief →
+                        </button>
+
+                        <p
+                            id="eventFormStatus"
+                            class="event-form-status"
+                            role="status"
+                            aria-live="polite">
+                        </p>
+
+                        <p class="form-disclaimer">
+                            Demo form: this page does not send enquiries
+                            to a server. Configure an email or backend
+                            service to receive submissions.
+                        </p>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- EVENT CATEGORIES -->
+        <section class="event-types section-padding">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">WHAT ARE YOU PLANNING?</p>
+                    <h2>Events for Every Occasion</h2>
+                    <p>
+                        Choose an event category to start filling in
+                        your event requirements.
+                    </p>
+                </div>
+
+                <div class="event-type-grid">
+
+                    <a href="#event-planner"
+                       class="event-type-card"
+                       data-event-type="Corporate Event">
+                        <span class="event-card-number">01</span>
+                        <h3>Corporate Events</h3>
+                        <p>Meetings, conferences and business gatherings.</p>
+                        <span class="card-arrow">↗</span>
+                    </a>
+
+                    <a href="#event-planner"
+                       class="event-type-card"
+                       data-event-type="Wedding">
+                        <span class="event-card-number">02</span>
+                        <h3>Weddings</h3>
+                        <p>Wedding celebrations, ceremonies and receptions.</p>
+                        <span class="card-arrow">↗</span>
+                    </a>
+
+                    <a href="#event-planner"
+                       class="event-type-card"
+                       data-event-type="Exhibition">
+                        <span class="event-card-number">03</span>
+                        <h3>Exhibitions</h3>
+                        <p>Trade shows, expos and brand experiences.</p>
+                        <span class="card-arrow">↗</span>
+                    </a>
+
+                    <a href="#event-planner"
+                       class="event-type-card"
+                       data-event-type="Concert">
+                        <span class="event-card-number">04</span>
+                        <h3>Live Events</h3>
+                        <p>Concerts, performances and entertainment.</p>
+                        <span class="card-arrow">↗</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- BOTTOM CTA -->
+        <section class="event-bottom-cta">
+            <div class="container bottom-cta-content">
+
+                <p class="eyebrow">LET'S GET STARTED</p>
+
+                <h2>Your next great event begins here.</h2>
+
+                <a href="#event-planner" class="primary-button">
+                    Plan Your Event →
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <div class="container footer-content">
+
+            <div class="footer-brand">
+                <a href="index.html" class="logo footer-logo">
+                    Hire4<span>Event</span>
+                </a>
+
+                <p>
+                    Bringing ideas, people and event experiences together.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Explore</h3>
+                <a href="services.html">Services</a>
+                <a href="solutions.html">Solutions</a>
+                <a href="marketplace.html">Marketplace</a>
+                <a href="resources.html">Resources</a>
+            </div>
+
+            <div class="footer-links">
+                <h3>Company</h3>
+                <a href="company.html">About Us</a>
+                <a href="contact.html">Contact</a>
+                <a href="plan_ your_ event.html">Plan Your Event</a>
+            </div>
+
+        </div>
+
+        <div class="container footer-bottom">
+            <p>
+                © <span id="currentYear"></span> Hire4Event.
+                All rights reserved.
+            </p>
+
+            <a href="#" id="backToTop">Back to top ↑</a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

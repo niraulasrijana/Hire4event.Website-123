@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Event Planning Resources | Hire4Event</title>
+
+    <meta
+        name="description"
+        content="Explore event planning guides, checklists, budget tips and expert resources to plan your next event with confidence."
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="container navbar">
+
+            <a href="index.html" class="logo" aria-label="Hire4Event home">
+                Hire<span>4</span>Event
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                type="button"
+                aria-label="Open navigation menu"
+                aria-controls="primaryNav"
+                aria-expanded="false"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav-links" id="primaryNav" aria-label="Main navigation">
+                <a href="services.html">Services</a>
+                <a href="solutions.html">Solutions</a>
+                <a href="marketplace.html">Marketplace</a>
+                <a href="resources.html" class="active">Resources</a>
+                <a href="about.html">Company</a>
+                <a href="contact.html">Contact</a>
+                <a href="plan_ your_ event.html" class="nav-cta">
+                    Plan Your Event
+                </a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="resources-hero">
+            <div class="container hero-content">
+
+                <span class="eyebrow">THE HIRE4EVENT RESOURCE CENTER</span>
+
+                <h1>
+                    Plan Better Events.
+                    <span>Make Every Moment Count.</span>
+                </h1>
+
+                <p>
+                    Discover practical guides, expert tips, planning
+                    checklists and helpful resources to make your next
+                    event simple, organized and memorable.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#featured-resources" class="btn btn-dark">
+                        Explore Resources
+                    </a>
+
+                    <a href="#planning-checklist" class="btn btn-outline">
+                        View Checklist
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- RESOURCE SEARCH -->
+        <section class="resource-search-section">
+            <div class="container">
+
+                <div class="resource-search-box">
+                    <label for="resourceSearch">
+                        Find the right event planning resource
+                    </label>
+
+                    <div class="search-input-wrap">
+                        <span class="search-icon" aria-hidden="true">
+                            &#128269;
+                        </span>
+
+                        <input
+                            type="search"
+                            id="resourceSearch"
+                            placeholder="Search guides, budgets, checklists..."
+                            autocomplete="off"
+                        >
+
+                        <button
+                            type="button"
+                            id="clearSearch"
+                            class="clear-search"
+                            hidden
+                        >
+                            Clear
+                        </button>
+                    </div>
+
+                    <p class="search-hint">
+                        Search event guides, planning tips and checklists.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- FEATURED RESOURCES -->
+        <section class="resources-section" id="featured-resources">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="eyebrow">LEARN AND PLAN</span>
+                    <h2>Explore Our Resources</h2>
+                    <p>
+                        Useful information to help you organize your event
+                        from the first idea to the final detail.
+                    </p>
+                </div>
+
+                <div class="resource-filters" aria-label="Filter resources">
+                    <button
+                        type="button"
+                        class="resource-filter active"
+                        data-category="all"
+                        aria-pressed="true"
+                    >
+                        All Resources
+                    </button>
+
+                    <button
+                        type="button"
+                        class="resource-filter"
+                        data-category="planning"
+                        aria-pressed="false"
+                    >
+                        Event Planning
+                    </button>
+
+                    <button
+                        type="button"
+                        class="resource-filter"
+                        data-category="budget"
+                        aria-pressed="false"
+                    >
+                        Budget Tips
+                    </button>
+
+                    <button
+                        type="button"
+                        class="resource-filter"
+                        data-category="checklist"
+                        aria-pressed="false"
+                    >
+                        Checklists
+                    </button>
+
+                    <button
+                        type="button"
+                        class="resource-filter"
+                        data-category="corporate"
+                        aria-pressed="false"
+                    >
+                        Corporate Events
+                    </button>
+                </div>
+
+                <p class="resource-count" id="resourceCount" aria-live="polite">
+                    Showing 8 resources
+                </p>
+
+                <div class="resource-grid" id="resourceGrid">
+
+                    <!-- RESOURCE 1 -->
+                    <article
+                        class="resource-card"
+                        data-category="planning"
+                        data-search="event planning beginner guide organize event timeline venue vendors"
+                    >
+                        <div class="resource-image image-planning">
+                            <span class="resource-tag">EVENT PLANNING</span>
+                            <span class="resource-symbol" aria-hidden="true">01</span>
+                        </div>
+
+                        <div class="resource-card-content">
+                            <p class="resource-type">Planning Guide</p>
+
+                            <h3>How to Plan an Event from Start to Finish</h3>
+
+                            <p>
+                                Learn the essential steps for organizing an
+                                event, from setting goals to managing the
+                                final arrangements.
+                            </p>
+
+                            <a href="#planning-checklist" class="resource-link">
+                                Explore Planning Steps
+                                <span aria-hidden="true">&rarr;</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- RESOURCE 2 -->
+                    <article
+                        class="resource-card"
+                        data-category="budget"
+                        data-search="event budget planning costs expenses allocation budget saving money"
+                    >
+                        <div class="resource-image image-budget">
+                            <span class="resource-tag">BUDGET TIPS</span>
+                            <span class="resource-symbol" aria-hidden="true">02</span>
+                        </div>
+
+                        <div class="resource-card-content">
+                            <p class="resource-type">Budget Guide</p>
+
+                            <h3>How to Create an Event Budget</h3>
+
+                            <p>
+                                Understand the main event expenses and learn
+                                how to organize your budget before booking
+                                services.
+                            </p>
+
+                            <a href="#budget-guide" class="resource-link">
+                                Explore Budget Tips
+                                <span aria-hidden="true">&rarr;</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- RESOURCE 3 -->
+                    <article
+                        class="resource-card"
+                        data-category="checklist"
+                        data-search="event checklist task list venue catering photography decoration schedule"
+                    >
+                        <div class="resource-image image-checklist">
+                            <span class="resource-tag">CHECKLISTS</span>
+                            <span class="resource-symbol" aria-hidden="true">03</span>
+                        </div>
+
+                        <div class="resource-card-content">
+                            <p class="resource-type">Planning Checklist</p>
+
+                            <h3>The Essential Event Planning Checklist</h3>
+
+                            <p>
+                                Keep track of important tasks, bookings and
+                                deadlines with a simple event preparation
+                                checklist.
+                            </p>
+
+                            <a href="#planning-checklist" class="resource-link">
+                                View Checklist
+                                <span aria-hidden="true">&rarr;</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- RESOURCE 4 -->
+                    <article
+                        class="resource-card"
+                        data-category="corporate"
+                        data-search="corporate business conference seminar meeting company event planning"
+                    >
+                        <div class="resource-image image-corporate">
+                            <span class="resource-tag">CORPORATE EVENTS</span>
+                            <span class="resource-symbol" aria-hidden="true">04</span>
+                        </div>
+
+                        <div class="resource-card-content">
+                            <p class="resource-type">Business Events</p>
+
+                            <h3>Planning a Successful Corporate Event</h3>
+
+                            <p>
+                                Discover practical considerations for
+                                conferences, seminars, meetings and
+                                company celebrations.
+                            </p>
+
+                            <a href="#corporate-guide" class="resource-link">
+                                Read Corporate Tips
+                                <span aria-hidden="true">&rarr;</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- RESOURCE 5 -->
+                    <article
+                        class="resource-card"
+                        data-category="planning"
+                        data-search="venue selection location capacity accessibility facilities event location"
+                    >
+                        <div class="resource-image image-venue">
+                            <span class="resource-tag">VENUE SELECTION</span>
+                            <span class="resource-symbol" aria-hidden="true">05</span>
+                        </div>
+
+                        <div class="resource-card-content">
+                            <p class="resource-type">Venue Guide</p>
+
+                            <h3>Choosing the Right Event Venue</h3>
+
+                            <p>
+                                Compare capacity, location, facilities,
+                                accessibility and other important venue
+                                requirements.
+                            </p>
+
+                            <a href="#venue-guide" class="resource-link">
+                                Explore Venue Tips
+                                <span aria-hidden="true">&rarr;</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- RESOURCE 6 -->
+                    <article
+                        class="resource-card"
+                        data-category="budget"
+                        data-search="save money affordable vendors compare quotations event costs"
+                    >
+                        <div class="resource-image image-savings">
+                            <span class="resource-tag">SMART SAVINGS</span>
+                            <span class="resource-symbol" aria-hidden="true">06</span>
+                        </div>
+
+                        <div class="resource-card-content">
+                            <p class="resource-type">Money-Saving Tips</p>
+
+                            <h3>Ways to Make Your Event Budget Go Further</h3>
+
+                            <p>
+                                Explore ways to prioritize essential services,
+                                compare quotations and control unnecessary
+                                expenses.
+                            </p>
+
+                            <a href="#budget-guide" class="resource-link">
+                                Discover Savings Tips
+                                <span aria-hidden="true">&rarr;</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- RESOURCE 7 -->
+                    <article
+                        class="resource-card"
+                        data-category="planning"
+                        data-search="event vendors photography catering decoration entertainment suppliers"
+                    >
+                        <div class="resource-image image-vendors">
+                            <span class="resource-tag">VENDOR GUIDE</span>
+                            <span class="resource-symbol" aria-hidden="true">07</span>
+                        </div>
+
+                        <div class="resource-card-content">
+                            <p class="resource-type">Vendor Management</p>
+
+                            <h3>How to Choose Event Vendors</h3>
+
+                            <p>
+                                Learn what to check when comparing service
+                                providers, quotations, portfolios and
+                                booking terms.
+                            </p>
+
+                            <a href="marketplace.html" class="resource-link">
+                                Explore Marketplace
+                                <span aria-hidden="true">&rarr;</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- RESOURCE 8 -->
+                    <article
+                        class="resource-card"
+                        data-category="checklist"
+                        data-search="event day timeline schedule run sheet responsibilities coordination"
+                    >
+                        <div class="resource-image image-timeline">
+                            <span class="resource-tag">EVENT DAY</span>
+                            <span class="resource-symbol" aria-hidden="true">08</span>
+                        </div>
+
+                        <div class="resource-card-content">
+                            <p class="resource-type">Event-Day Guide</p>
+
+                            <h3>Creating an Event-Day Timeline</h3>
+
+                            <p>
+                                Organize setup, arrivals, activities and
+                                responsibilities to keep the event running
+                                smoothly.
+                            </p>
+
+                            <a href="#planning-checklist" class="resource-link">
+                                Plan Your Timeline
+                                <span aria-hidden="true">&rarr;</span>
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+
+                <div class="no-resources" id="noResources" hidden>
+                    <h3>No resources found</h3>
+                    <p>
+                        Try a different search term or select another category.
+                    </p>
+
+                    <button type="button" id="resetResources" class="btn btn-dark">
+                        Reset Search
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CHECKLIST SECTION -->
+        <section class="detail-section checklist-section" id="planning-checklist">
+            <div class="container detail-layout">
+
+                <div class="detail-copy">
+                    <span class="eyebrow">YOUR PLANNING COMPANION</span>
+
+                    <h2>Your Event Planning Checklist</h2>
+
+                    <p>
+                        Use this sample checklist to organize the key tasks
+                        involved in planning an event. Tick off each task as
+                        you complete it.
+                    </p>
+
+                    <p class="checklist-note">
+                        Your selections stay on this page while it is open.
+                    </p>
+                </div>
+
+                <div class="checklist-panel">
+                    <h3>Event Preparation Tasks</h3>
+
+                    <label class="checklist-item">
+                        <input type="checkbox">
+                        <span>Define event goals and audience</span>
+                    </label>
+
+                    <label class="checklist-item">
+                        <input type="checkbox">
+                        <span>Set the date and initial budget</span>
+                    </label>
+
+                    <label class="checklist-item">
+                        <input type="checkbox">
+                        <span>Choose the venue and check availability</span>
+                    </label>
+
+                    <label class="checklist-item">
+                        <input type="checkbox">
+                        <span>Compare vendors and service quotations</span>
+                    </label>
+
+                    <label class="checklist-item">
+                        <input type="checkbox">
+                        <span>Confirm catering and guest requirements</span>
+                    </label>
+
+                    <label class="checklist-item">
+                        <input type="checkbox">
+                        <span>Prepare the event schedule</span>
+                    </label>
+
+                    <label class="checklist-item">
+                        <input type="checkbox">
+                        <span>Confirm final details with suppliers</span>
+                    </label>
+
+                    <label class="checklist-item">
+                        <input type="checkbox">
+                        <span>Review the event-day plan</span>
+                    </label>
+
+                    <div class="checklist-progress">
+                        <span id="checklistProgressText">0 of 8 tasks completed</span>
+
+                        <div
+                            class="progress-track"
+                            role="progressbar"
+                            id="checklistProgress"
+                            aria-label="Checklist completion"
+                            aria-valuemin="0"
+                            aria-valuemax="8"
+                            aria-valuenow="0"
+                        >
+                            <div class="progress-fill" id="progressFill"></div>
+                        </div>
+                    </div>
+
+                    <button type="button" id="clearChecklist" class="text-button">
+                        Clear checklist
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- BUDGET GUIDE -->
+        <section class="detail-section budget-section" id="budget-guide">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="eyebrow">PLAN WITH CONFIDENCE</span>
+                    <h2>Build a Smarter Event Budget</h2>
+                    <p>
+                        Start with these common expense categories and adjust
+                        them according to your event requirements.
+                    </p>
+                </div>
+
+                <div class="budget-grid">
+
+                    <div class="budget-card">
+                        <span class="budget-number">01</span>
+                        <h3>Venue and Setup</h3>
+                        <p>
+                            Consider venue rental, seating, stage setup,
+                            lighting and any required equipment.
+                        </p>
+                    </div>
+
+                    <div class="budget-card">
+                        <span class="budget-number">02</span>
+                        <h3>Food and Beverages</h3>
+                        <p>
+                            Estimate the number of guests and confirm menu,
+                            service and dietary requirements.
+                        </p>
+                    </div>
+
+                    <div class="budget-card">
+                        <span class="budget-number">03</span>
+                        <h3>Vendors and Entertainment</h3>
+                        <p>
+                            Account for photography, decoration, music,
+                            performers and other service providers.
+                        </p>
+                    </div>
+
+                    <div class="budget-card">
+                        <span class="budget-number">04</span>
+                        <h3>Contingency</h3>
+                        <p>
+                            Keep a reserve for unexpected expenses and
+                            last-minute changes.
+                        </p>
+                    </div>
+
+                </div>
+
+                <p class="budget-disclaimer">
+                    These are planning categories, not quoted prices.
+                    Actual costs depend on location, guest count, dates
+                    and selected services.
+                </p>
+
+            </div>
+        </section>
+
+        <!-- VENUE GUIDE -->
+        <section class="detail-section venue-section" id="venue-guide">
+            <div class="container venue-content">
+
+                <div>
+                    <span class="eyebrow">FIND THE RIGHT SPACE</span>
+                    <h2>What to Check Before Booking a Venue</h2>
+                </div>
+
+                <ul class="venue-list">
+                    <li>Capacity and seating arrangements</li>
+                    <li>Location and guest accessibility</li>
+                    <li>Parking and transport options</li>
+                    <li>Audio, lighting and power facilities</li>
+                    <li>Catering rules and outside vendor policies</li>
+                    <li>Setup, event and cleanup timings</li>
+                    <li>Cancellation terms and payment schedule</li>
+                </ul>
+
+            </div>
+        </section>
+
+        <!-- CORPORATE GUIDE -->
+        <section class="detail-section corporate-section" id="corporate-guide">
+            <div class="container corporate-content">
+
+                <span class="eyebrow">FOR BUSINESSES AND TEAMS</span>
+
+                <h2>Make Corporate Events More Organized</h2>
+
+                <p>
+                    Whether you're arranging a conference, seminar,
+                    product launch, team gathering or business celebration,
+                    start with a clear purpose and a practical plan.
+                </p>
+
+                <div class="corporate-points">
+                    <div>
+                        <h3>Set clear objectives</h3>
+                        <p>Define what the event should achieve.</p>
+                    </div>
+
+                    <div>
+                        <h3>Coordinate your team</h3>
+                        <p>Assign responsibilities and deadlines.</p>
+                    </div>
+
+                    <div>
+                        <h3>Prepare for the day</h3>
+                        <p>Confirm schedules, equipment and suppliers.</p>
+                    </div>
+                </div>
+
+                <a href="plan_ your_ event.html" class="btn btn-light">
+                    Start Planning
+                </a>
+
+            </div>
+        </section>
+
+        <!-- FAQ SECTION -->
+        <section class="faq-section">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="eyebrow">COMMON QUESTIONS</span>
+                    <h2>Event Planning FAQs</h2>
+                </div>
+
+                <div class="faq-list">
+
+                    <details class="faq-item">
+                        <summary>When should I start planning an event?</summary>
+                        <p>
+                            It depends on the size and complexity of your event.
+                            Larger events may require several months of planning,
+                            while smaller gatherings can need less time. Book
+                            important services as early as practical.
+                        </p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How do I decide on an event budget?</summary>
+                        <p>
+                            Begin with your priorities, estimated guest count
+                            and available funds. List expected expenses and
+                            keep some money aside for unexpected costs.
+                        </p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Which vendors might I need?</summary>
+                        <p>
+                            Depending on the event, you may need a venue,
+                            caterer, photographer, decorator, sound and lighting
+                            team, entertainer or event planner.
+                        </p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How can I keep an event organized?</summary>
+                        <p>
+                            Maintain a checklist, confirm bookings in writing,
+                            assign responsibilities and share a clear schedule
+                            with everyone involved.
+                        </p>
+                    </details>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CALL TO ACTION -->
+        <section class="resources-cta">
+            <div class="container cta-content">
+
+                <span class="eyebrow">READY TO GET STARTED?</span>
+
+                <h2>Let's Bring Your Event Idea to Life.</h2>
+
+                <p>
+                    Explore event services and start building a plan
+                    that fits your goals and requirements.
+                </p>
+
+                <a href="plan_ your_ event.html" class="btn btn-light">
+                    Plan Your Event
+                </a>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container footer-grid">
+
+            <div class="footer-brand">
+                <a href="index.html" class="logo footer-logo">
+                    Hire<span>4</span>Event
+                </a>
+
+                <p>
+                    Helpful resources and ideas for planning more
+                    organized and memorable events.
+                </p>
+            </div>
+
+            <div class="footer-column">
+                <h3>Explore</h3>
+                <a href="services.html">Services</a>
+                <a href="solutions.html">Solutions</a>
+                <a href="marketplace.html">Marketplace</a>
+                <a href="resources.html">Resources</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Company</h3>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+                <a href="plan_ your_ event.html">Plan Your Event</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Plan Smarter</h3>
+                <a href="#planning-checklist">Event Checklist</a>
+                <a href="#budget-guide">Budget Guide</a>
+                <a href="#venue-guide">Venue Guide</a>
+                <a href="#corporate-guide">Corporate Events</a>
+            </div>
+
+        </div>
+
+        <div class="container footer-bottom">
+            <p>
+                &copy; <span id="currentYear"></span> Hire4Event.
+                All rights reserved.
+            </p>
+
+            <a href="#top" id="backToTop">Back to top &uarr;</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Event Services | Hire4Event</title>
+
+    <meta name="description"
+        content="Explore event planning services including wedding planning, corporate events, entertainment, photography, catering and decoration.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header">
+        <div class="container header-inner">
+
+            <a href="index.html" class="brand" aria-label="Hire4Event Home">
+                <span class="red">Hire4</span>Event
+            </a>
+
+            <button
+                class="menu-toggle"
+                type="button"
+                aria-label="Toggle navigation"
+                aria-expanded="false"
+                aria-controls="primary-navigation">
+
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="primary-nav" id="primary-navigation">
+                <a href="index.html">Home</a>
+                <a href="services.html" aria-current="page">Services</a>
+                <a href="solutions.html">Solutions</a>
+                <a href="marketplace.html">Marketplace</a>
+                <a href="resources.html">Resources</a>
+                <a href="about.html">Company</a>
+                <a href="plan_ your_ event.html" class="nav-plan">
+                    Plan Your Event
+                </a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <main>
+
+        <section class="hero">
+            <div class="container hero-grid">
+
+                <div class="hero-copy">
+
+                    <span class="eyebrow">
+                        OUR EVENT SERVICES
+                    </span>
+
+                    <h1>
+                        Everything You Need
+                        for a <span class="red">Perfect Event</span>
+                    </h1>
+
+                    <p class="hero-intro">
+                        Discover event professionals, creative services
+                        and planning solutions for weddings, corporate
+                        gatherings, private celebrations and more.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#all-services" class="button button-dark">
+                            Explore Services
+                        </a>
+
+                        <a href="plan_ your_ event.html"
+                            class="button button-light">
+                            Plan Your Event
+                        </a>
+                    </div>
+
+                    <p class="hero-note">
+                        One destination for exploring event services.
+                    </p>
+
+                </div>
+
+                <div class="hero-visual">
+                    <img
+                        src="images.venus.jpg"
+                        alt="Beautifully arranged event venue">
+
+                    <div class="visual-tag">
+                        Plan with confidence
+                        <span>Find services for your event</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- SERVICES INTRODUCTION -->
+        <section class="section">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="eyebrow">WHAT WE OFFER</span>
+
+                    <h2>
+                        Explore Our <span class="red">Services</span>
+                    </h2>
+
+                    <p class="section-intro">
+                        From the first idea to the final celebration,
+                        explore service categories that can help bring
+                        your event vision to life.
+                    </p>
+                </div>
+
+
+                <!-- SEARCH AND FILTER -->
+                <div class="search-panel" id="all-services">
+
+                    <div class="search-heading">
+                        <h3>Find the Right Event Service</h3>
+                        <p>Search services by name or category.</p>
+                    </div>
+
+                    <div class="search-controls">
+                        <input
+                            type="search"
+                            id="service-search"
+                            placeholder="Search event services..."
+                            aria-label="Search event services">
+
+                        <button
+                            type="button"
+                            id="search-button"
+                            class="button button-dark">
+                            Search
+                        </button>
+                    </div>
+
+                    <div class="filter-tabs" aria-label="Filter services">
+
+                        <button
+                            class="filter-tab is-active"
+                            type="button"
+                            data-category="all"
+                            aria-pressed="true">
+                            All Services
+                        </button>
+
+                        <button
+                            class="filter-tab"
+                            type="button"
+                            data-category="wedding"
+                            aria-pressed="false">
+                            Wedding
+                        </button>
+
+                        <button
+                            class="filter-tab"
+                            type="button"
+                            data-category="corporate"
+                            aria-pressed="false">
+                            Corporate
+                        </button>
+
+                        <button
+                            class="filter-tab"
+                            type="button"
+                            data-category="decoration"
+                            aria-pressed="false">
+                            Decoration
+                        </button>
+
+                        <button
+                            class="filter-tab"
+                            type="button"
+                            data-category="photography"
+                            aria-pressed="false">
+                            Photography
+                        </button>
+
+                        <button
+                            class="filter-tab"
+                            type="button"
+                            data-category="catering"
+                            aria-pressed="false">
+                            Catering
+                        </button>
+
+                    </div>
+                </div>
+
+
+                <!-- SERVICE CARDS -->
+                <div class="service-grid">
+
+                    <!-- WEDDING -->
+                    <article class="service-card" data-category="wedding">
+
+                        <img
+                            src="images.weding.jpg"
+                            alt="Wedding ceremony decoration"
+                            loading="lazy">
+
+                        <div class="card-body">
+                            <span class="card-number">01</span>
+
+                            <h3>Wedding Planning</h3>
+
+                            <p>
+                                Explore wedding planning, venue styling,
+                                ceremony coordination and celebration
+                                services for your special day.
+                            </p>
+
+                            <a href="plan_ your_ event.html">
+                                Explore Wedding Services →
+                            </a>
+                        </div>
+
+                    </article>
+
+
+                    <!-- CORPORATE -->
+                    <article class="service-card" data-category="corporate">
+
+                        <img
+                            src="images.coop.jpg"
+                            alt="Corporate event gathering"
+                            loading="lazy">
+
+                        <div class="card-body">
+                            <span class="card-number">02</span>
+
+                            <h3>Corporate Events</h3>
+
+                            <p>
+                                Discover support for conferences,
+                                business meetings, product launches,
+                                networking events and company gatherings.
+                            </p>
+
+                            <a href="plan_ your_ event.html">
+                                Explore Corporate Services →
+                            </a>
+                        </div>
+
+                    </article>
+
+
+                    <!-- DECORATION -->
+                    <article class="service-card" data-category="decoration">
+
+                        <img
+                            src="images.decoration.jpg"
+                            alt="Elegant event table decoration"
+                            loading="lazy">
+
+                        <div class="card-body">
+                            <span class="card-number">03</span>
+
+                            <h3>Event Decoration</h3>
+
+                            <p>
+                                Find inspiration for stage decoration,
+                                floral arrangements, lighting, themed
+                                setups and venue styling.
+                            </p>
+
+                            <a href="plan_ your_ event.html">
+                                Explore Decoration →
+                            </a>
+                        </div>
+
+                    </article>
+
+
+                    <!-- PHOTOGRAPHY -->
+                    <article class="service-card" data-category="photography">
+
+                        <img
+                            src="images.photo.jpg"
+                            alt="Photographer capturing an event"
+                            loading="lazy">
+
+                        <div class="card-body">
+                            <span class="card-number">04</span>
+
+                            <h3>Photography & Videography</h3>
+
+                            <p>
+                                Explore photography and video services
+                                to capture memorable moments from your
+                                celebrations and business events.
+                            </p>
+
+                            <a href="plan_ your_ event.html">
+                                Explore Photography →
+                            </a>
+                        </div>
+
+                    </article>
+
+
+                    <!-- CATERING -->
+                    <article class="service-card" data-category="catering">
+
+                        <img
+                            src="images.food.jpg"
+                            alt="Food prepared for event catering"
+                            loading="lazy">
+
+                        <div class="card-body">
+                            <span class="card-number">05</span>
+
+                            <h3>Catering Services</h3>
+
+                            <p>
+                                Explore food and beverage options,
+                                event menus, buffet arrangements and
+                                catering support for your guests.
+                            </p>
+
+                            <a href="plan_ your_ event.html">
+                                Explore Catering →
+                            </a>
+                        </div>
+
+                    </article>
+
+
+                    <!-- ENTERTAINMENT -->
+                    <article class="service-card" data-category="entertainment">
+
+                        <img
+                            src="images.live.jpg"
+                            alt="Live entertainment at an event"
+                            loading="lazy">
+
+                        <div class="card-body">
+                            <span class="card-number">06</span>
+
+                            <h3>Entertainment & Artists</h3>
+
+                            <p>
+                                Discover entertainment ideas such as
+                                live music, DJs, performers, hosts and
+                                other event experiences.
+                            </p>
+
+                            <a href="plan_ your_ event.html">
+                                Explore Entertainment →
+                            </a>
+                        </div>
+
+                    </article>
+
+
+                    <!-- VENUES -->
+                    <article class="service-card" data-category="venue">
+
+                        <img
+                            src="images.venus.jpg"
+                            alt="Event venue arranged for guests"
+                            loading="lazy">
+
+                        <div class="card-body">
+                            <span class="card-number">07</span>
+
+                            <h3>Venues & Banquets</h3>
+
+                            <p>
+                                Explore venue ideas for weddings,
+                                private parties, business gatherings
+                                and special celebrations.
+                            </p>
+
+                            <a href="plan_ your_ event.html">
+                                Explore Venues →
+                            </a>
+                        </div>
+
+                    </article>
+
+
+                    <!-- SOUND AND LIGHT -->
+                    <article class="service-card" data-category="sound">
+
+                        <img
+                            src="images.lighiting.jpg"
+                            alt="Stage lighting and sound at an event"
+                            loading="lazy">
+
+                        <div class="card-body">
+                            <span class="card-number">08</span>
+
+                            <h3>Sound & Lighting</h3>
+
+                            <p>
+                                Explore sound systems, stage lighting,
+                                microphones, screens and technical
+                                production options.
+                            </p>
+
+                            <a href="plan_ your_ event.html">
+                                Explore Technical Services →
+                            </a>
+                        </div>
+
+                    </article>
+
+
+                    <!-- PRIVATE PARTIES -->
+                    <article class="service-card" data-category="party">
+
+                        <img
+                            src="images.birthday.jpg"
+                            alt="Festive birthday celebration"
+                            loading="lazy">
+
+                        <div class="card-body">
+                            <span class="card-number">09</span>
+
+                            <h3>Private Parties</h3>
+
+                            <p>
+                                Discover ideas for birthdays,
+                                anniversaries, family celebrations,
+                                festive gatherings and private parties.
+                            </p>
+
+                            <a href="plan_ your_ event.html">
+                                Explore Party Services →
+                            </a>
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- WHY CHOOSE US -->
+        <section class="section section-soft">
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="eyebrow">WHY HIRE4EVENT</span>
+
+                    <h2>
+                        Make Event Planning <span class="red">Simpler</span>
+                    </h2>
+
+                    <p class="section-intro">
+                        Organise your ideas, explore service categories
+                        and build an event plan around your needs.
+                    </p>
+                </div>
+
+                <div class="service-grid">
+
+                    <article class="service-card">
+                        <div class="card-body">
+                            <span class="card-number">01</span>
+                            <h3>Explore Options</h3>
+                            <p>
+                                Browse different event service categories
+                                and identify the options that suit your
+                                occasion.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="card-body">
+                            <span class="card-number">02</span>
+                            <h3>Plan Your Budget</h3>
+                            <p>
+                                List your event requirements and
+                                prepare a budget before confirming
+                                services with vendors.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="service-card">
+                        <div class="card-body">
+                            <span class="card-number">03</span>
+                            <h3>Build Your Event</h3>
+                            <p>
+                                Bring your ideas together to create
+                                an event plan that reflects your
+                                goals and preferences.
+                            </p>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- CALL TO ACTION -->
+        <section class="section">
+            <div class="container">
+
+                <div class="testimonial-card">
+                    <span class="eyebrow">LET'S GET STARTED</span>
+
+                    <h2>
+                        Ready to Plan Your Next Event?
+                    </h2>
+
+                    <p>
+                        Start with your event type, location,
+                        date and requirements to organise your
+                        planning process.
+                    </p>
+
+                    <a href="plan_ your_ event.html"
+                        class="button button-dark">
+                        Plan Your Event →
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <div class="container footer-main">
+
+            <div class="footer-about">
+
+                <a href="index.html" class="footer-brand">
+                    <span class="red">Hire4</span>Event
+                </a>
+
+                <p>
+                    Explore event services and planning ideas
+                    for weddings, corporate events, celebrations
+                    and special occasions.
+                </p>
+
+                <div class="social-links">
+                    <a href="https://www.instagram.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Instagram">IG</a>
+
+                    <a href="https://www.facebook.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="Facebook">FB</a>
+
+                    <a href="https://www.linkedin.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label="LinkedIn">IN</a>
+                </div>
+
+            </div>
+
+
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="solutions.html">Solutions</a>
+                <a href="marketplace.html">Marketplace</a>
+            </div>
+
+
+            <div class="footer-column">
+                <h3>Explore</h3>
+                <a href="resources.html">Resources</a>
+                <a href="about.html">About Us</a>
+                <a href="plan_ your_ event.html">Plan Your Event</a>
+                <a href="contact.html">Contact</a>
+            </div>
+
+
+            <div class="footer-column">
+                <h3>Event Services</h3>
+                <a href="#all-services">Wedding Planning</a>
+                <a href="#all-services">Corporate Events</a>
+                <a href="#all-services">Photography</a>
+                <a href="#all-services">Catering</a>
+            </div>
+
+        </div>
+
+
+        <div class="container footer-bottom">
+            <p>
+                © <span id="current-year"></span> Hire4Event.
+                All rights reserved.
+            </p>
+
+            <p>Made for memorable events.</p>
+        </div>
+
+    </footer>
+
+
+    <!-- WHATSAPP BUTTON -->
+    <a
+        href="https://wa.me/"
+        class="whatsapp-float"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Contact on WhatsApp">
+
+        WhatsApp
+    </a>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
